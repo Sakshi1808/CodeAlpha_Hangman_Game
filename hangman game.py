@@ -15,7 +15,7 @@ while True:  #  Outer loop for replay
             if letter in guessed_letters:
                 display += letter + " "
             else:
-                display += "_ "
+                display += "_"
         print("\nWord:", display)
 
         print("Remaining guesses:", max_wrong - wrong_guesses)
